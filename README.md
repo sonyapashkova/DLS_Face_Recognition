@@ -24,8 +24,8 @@
 5) Исследовать распределение выученных эмбеддингов лиц
 
 ## Описание проделанной работы
-- [В первом ноутбуке]() были обучены модели для распознавания лиц на Cross Entropy Loss и ArcFace Loss. Точность предсказаний на тестовых данных для модели обученной на Cross Entropy Loss составила ~78,4%, для модели обученной на ArcFace Loss - ~84,6%.
+- [В первом ноутбуке](https://github.com/sonyapashkova/DLS_Face_Recognition/blob/main/notebooks/part_1_face_recognition.ipynb) были обучены модели для распознавания лиц на Cross Entropy Loss и ArcFace Loss. Точность предсказаний на тестовых данных для модели обученной на Cross Entropy Loss составила ~78,4%, для модели обученной на ArcFace Loss - ~84,6%.
 
-- [Во втором ноутбуке]() была обучена модель для распознавания ключевых точек лица на [датасете](https://www.kaggle.com/datasets/julianlenkiewicz/facialkeypoints68dataset), содержащем лица с 68 ключевыми точками. На основе предсказаний обученной модели осуществляется выравнивание лиц.
+- [Во втором ноутбуке](https://github.com/sonyapashkova/DLS_Face_Recognition/blob/main/notebooks/part_2_face_alignment.ipynb) была обучена модель для распознавания ключевых точек лица на [датасете](https://www.kaggle.com/datasets/julianlenkiewicz/facialkeypoints68dataset), содержащем лица с 68 ключевыми точками. На основе предсказаний обученной модели осуществляется выравнивание лиц.
 
-- [В третьем ноутбуке]() был собран весь пайплайн из сетей для детекции, выравнивания и распознавания, а также проведено сравнение между двумя моделями для распознавания, обученными в первой части. В качестве модели для детекции лиц была использована предобученная модель [MTCNN](https://github.com/timesler/facenet-pytorch).
+- [В третьем ноутбуке](https://github.com/sonyapashkova/DLS_Face_Recognition/blob/main/notebooks/part_3_face_recognition_pipeline.ipynb) был собран весь пайплайн из сетей для детекции, выравнивания и распознавания, а также проведено сравнение между двумя моделями для распознавания, обученными в первой части. В качестве модели для детекции лиц была использована предобученная модель [MTCNN](https://github.com/timesler/facenet-pytorch).
